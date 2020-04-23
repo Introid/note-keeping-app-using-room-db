@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditNoteActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_note"
+        android:layout_marginTop="20dp"
+        android:id="@+id/edit_note"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/update"
+        android:textColor="#fff"
+        android:onClick="updateNote"
+        android:background="@color/colorPrimary"
+        android:layout_marginStart="112dp"
+        android:layout_below="@+id/edit_note"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel"
+        android:text="@string/cancel"
+        android:textColor="#fff"
+        android:onClick="cancelUpdate"
+        android:background="@color/colorPrimary"
+        android:layout_below="@+id/edit_note"
+        android:layout_toEndOf="@+id/update"
+        android:layout_marginStart="5dp"
+        />
+
+
+</RelativeLayout>

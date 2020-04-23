@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RoomDatabase</string>
+    <string name="new_note">New Note</string>
+    <string name="save">save</string>
+    <string name="notes">Notes</string>
+    <string name="no_notes">No Notes Available</string>
+    <string name="edit_note">Edit note</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+</resources>
